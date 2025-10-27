@@ -37,7 +37,7 @@ Since this project was conducted online using DynamiteLab, no local setup is req
 4. Document your results (screenshots recommended).
 
 ## Proof of Work
-- Detailed findings and screenshots are documented in a Google Docs report: [Wireshark DDoS Project Proof]([Insert Google Docs Link Here])
+- Detailed findings and screenshots are documented in a Google Docs report
 - Screenshots include:
   - Filtered packet list showing ~1,200 SYN packets.
   - Flow graph highlighting 100% TCP traffic.
