@@ -1,18 +1,18 @@
 # DynamiteLab Traffic Analysis for DDoS Detection
 
 ## Overview
-This repository contains a project demonstrating hands-on network traffic analysis using DynamiteLab Community (the rebranded successor to PacketTotal) to detect a SYN flood Distributed Denial of Service (DDoS) attack. The project leverages the public PCAP file `SYNFlooding_flag.pcapng` to apply Wireshark-style filters, identify malicious traffic patterns, and document findings. Inspired by the open-source project at [github.com/mayaalotfy/DDOS-Attack-Detection-By-Wireshark](https://github.com/mayaalotfy/DDOS-Attack-Detection-By-Wireshark), this work showcases practical cybersecurity skills suitable for resume portfolios.
+This repository contains a project demonstrating hands-on network traffic analysis using DynamiteLab Community (the rebranded successor to PacketTotal) to detect a SYN flood Distributed Denial of Service (DDoS) attack. The project leverages the public PCAP file `SYNFlooding_flag.pcapng` to apply Wireshark-style filters, identify malicious traffic patterns, and document findings.
 
 ## Project Details
-- **Platform**: DynamiteLab Community ([lab.dynamite.ai](https://lab.dynamite.ai))
+- **Platform**: DynamiteLab
 - **Dataset**: `SYNFlooding_flag.pcapng` (Public Repository PCAP)
-- **Date Completed**: October 27, 2025
-- **Author**: [Your Name]
+- **Date Completed**: April 27, 2025
+- **Author**: Michael Ampo
 - **Skills Demonstrated**: Network traffic analysis, DDoS detection, Wireshark filter application, documentation
 
 ## How to Explore
 Since this project was conducted online using DynamiteLab, no local setup is required. However, you can:
-1. Visit [lab.dynamite.ai](https://lab.dynamite.ai) and search for `SYNFlooding_flag.pcapng` to replicate the analysis.
+1. Visit lab.dynamite.ai and search for `SYNFlooding_flag.pcapng` to replicate the analysis.
 2. Use the following filters in the "Search for domain, IP..." bar:
    - `tcp.flags.syn == 1 && tcp.flags.ack == 0` (Detects SYN flood)
    - `http` (Checks for HTTP correlation)
@@ -31,7 +31,7 @@ Since this project was conducted online using DynamiteLab, no local setup is req
 - Optional: Familiarity with Wireshark filters for deeper exploration.
 
 ## Usage
-1. Navigate to [lab.dynamite.ai](https://lab.dynamite.ai).
+1. Navigate to lab.dynamite.ai
 2. Search for `SYNFlooding_flag.pcapng` and open the PCAP.
 3. Apply the provided filters to observe the SYN flood pattern.
 4. Document your results (screenshots recommended).
